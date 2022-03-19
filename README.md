@@ -2,7 +2,7 @@
   <b>UCM Files from ChromeOS Overlays for modern Chromebooks</b>
 <br>
 <br>
-  <i>SOF/KBL/APL/GLK/SKL</i>
+  SOF/KBL/APL/GLK/SKL
 <br>
 <br>
 https://chromium.googlesource.com/chromiumos/overlays/board-overlays/+/refs/heads/main/
