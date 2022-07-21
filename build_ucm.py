@@ -4,6 +4,8 @@
 
 import os
 
+os.chdir("original")
+
 # Get starting path
 startingPath = os.getcwd()
 
@@ -19,6 +21,7 @@ files = os.listdir()
 for filename in files:
     if "overlay" in filename:
         overlayList.append(filename.replace("overlay-", ""))
+# loop through each overlay
 for overlay in overlayList:
 
     legacy = False
@@ -44,7 +47,7 @@ for overlay in overlayList:
                 os.chdir(f"{board}/audio/ucm-config")
         except:
             print(f"Folder not found: {os.getcwd()}/{board}/audio/ucm-config or audio-5_4")
-            continue
+            continue # Shhh... keep running the script
         
         if not legacy:
             os.makedirs(f"{startingPath}/{overlay}/{board}/", exist_ok=True)
