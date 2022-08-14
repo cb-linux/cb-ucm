@@ -8,6 +8,8 @@
 https://chromium.googlesource.com/chromiumos/overlays/board-overlays/+/refs/heads/main/
 </p>
 
+The `original` directory contains original UCMs pulled from ChromeOS Board Overlays. Everything else contains handcrafted UCMs optimized for mainline Linux distribtions.
+
 Some notes:
 * Legacy Audio drivers
   * These are very important to get your Chromebook's audio working, given that you have the correct kernel configuration and topology
