@@ -1,3 +1,6 @@
+⚠️ Now found under the Eupnea umbrella complete with modern SOF UCMs
+> https://github.com/eupnea-linux/audio-scripts
+--------
 <p align="center">
   <b>UCM Files from ChromeOS Overlays for modern Chromebooks</b>
 <br>
